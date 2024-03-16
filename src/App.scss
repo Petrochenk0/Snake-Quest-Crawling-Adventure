@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* App */
+.App {
+  text-align: center;
+  background-color: #1b1b1b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* Status */
+.Status .start-button {
+  background-color: #1b1b1b;
+  border-color: white;
+  color: white;
+  font-size: 5vh;
+  padding: 2vh 5vh;
+  border-radius: 1vh;
+  margin-top: 5vh;
+}
+/* Board */
+.Board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+/* Square */
+.Square button {
+  width: 6vh;
+  height: 6vh;
+  background-color: #1b1b1b;
+  border-color: rgb(58, 58, 58);
+  border-radius: 1vh;
+  margin: 0.5vh;
+}
+.Square .snake {
+  background-color: #3eff37;
+  border-color: #3eff37;
+}
+.Square .apple {
+  background-color: #ff3939;
+  border-color: #ff3939;
+}
